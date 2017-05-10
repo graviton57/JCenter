@@ -7,14 +7,14 @@ apply plugin: 'com.android.library'
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'your_library_name'// Has to be same as your library module name
-    publishedGroupId = 'com.github.graviton57'
+    publishedGroupId = 'com.github.your_github_login'
     libraryName = 'YourLibraryName' 
     artifact = 'your_library_name'  // Has to be same as your library module name
     libraryDescription = 'Your Library short description.'
     siteUrl = 'https://github.com/your_git_login/Your_repository'
     gitUrl = 'https://github.com/your_git_login/Your_repository.git'
     libraryVersion = '1.0.0'
-    developerId = 'your_git_login'
+    developerId = 'your_github_login'
     developerName = 'First Name Last Name'
     developerEmail = 'your@email.com'
     licenseName = 'The Apache Software License, Version 2.0'
